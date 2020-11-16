@@ -1,0 +1,12 @@
+{
+    "name": "cesar/communify-demo",
+    "authors": [
+        {
+            "name": "stefanFramework",
+            "email": "cesar_cappetto@yahoo.com.ar"
+        }
+    ],
+    "require": {
+        "facebook/graph-sdk": "^5.7"
+    }
+}
