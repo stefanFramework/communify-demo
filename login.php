@@ -1,5 +1,7 @@
 <?php
-session_start();
+if (!session_id()) {
+    session_start();
+}
 
 require_once 'fb-config.php';
 
@@ -7,6 +9,8 @@ try {
 
     $permissions = [
             'email',
+            'public_profile',
+            'instagram_basic',
             'publish_to_groups',
             'pages_manage_metadata',
             'pages_manage_posts',
